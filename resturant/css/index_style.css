@@ -1,0 +1,591 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clr
+{
+    clear: both;
+}
+
+.home
+{
+    background-image: url(../images/shutterstock_277750193.jpg);
+    height: 100vh;
+    background-size:cover;
+    color: white;
+    overflow: auto;
+
+}
+
+
+
+.fixbut
+{
+    width: 6vh;
+    height: 11vh;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: white;
+    text-align: center;
+    padding: 2vh 0.75vh 1.25vh;
+    position: fixed;
+    top: 25vh;
+    right: 0;
+    border: whitesmoke 1px solid;
+}
+
+.fixbut i
+{
+    color: grey;
+    padding-bottom: 1.5vh;
+    font-size: 2.65vh;
+
+
+}
+
+.fixbut i:hover
+{
+    color:cornflowerblue;
+
+}
+
+.homeContent
+{
+
+    margin: auto;
+    text-align: center;
+    margin-top: 132px;
+
+}
+
+.b1
+{
+    background-color: rgb(192,171,132);
+    color: white;
+    transition: 0.5s ;
+}
+
+
+.b1:hover
+{
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+.b2
+{
+    background-color: #ffffff;
+    transition: 0.5s ;
+
+}
+
+.b2:hover
+{
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.b1 , .b2
+{
+    border: hidden;
+    padding: 2.5vh 4vh;
+    border-radius: 4px;
+    margin-right: 0.8vh;
+    font-weight: bold;
+}
+
+.home p
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    line-height:normal;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+
+}
+
+.home h1
+{
+    font-size: 9.632446134347274vh;
+    font-weight: 300;
+    font-family: 'Alegreya', serif;
+    margin-top: 2vh;
+    line-height: 91px;
+}
+
+.secondSec
+{
+margin-top: 10vh;
+margin-bottom: 10vh;
+}
+
+.pic
+{
+    float: left;
+    width: 44.3%;
+    text-align: right;
+}
+
+.content
+{
+    float: left;
+    width: 40%;
+    padding-top:15vh ;
+    padding-left: 13vh;
+
+}
+ 
+.content h3
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    line-height: 39px;
+    color: rgb(192,171,132);
+    font-weight: 100;
+    padding: 2vh 0  ;
+}
+
+.content h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: lighter;
+}
+
+.content p 
+{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+
+}
+
+.third
+{
+    background-color: rgb(248,248,248);
+
+}
+
+
+.cont
+{
+width: 42%;
+float: left;
+}
+
+.pict
+{
+    width: 50%;
+    float: left;
+    padding: 14vh 0vh;
+    text-align: center;
+}
+
+.pict img
+{
+    width: 80%;
+}
+
+.fourth
+{
+    background-image: url(../images/shutterstock_280369721.jpg);
+    background-attachment: fixed;
+    height: 63vh;
+    background-size: auto;
+}
+
+.menu_sec .menu
+{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu_sec .menu .item
+{
+
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+
+.menu_sec .menu .item img
+{
+
+    width: 95%;
+
+}
+
+.menu_sec .menu .item p
+{
+    margin-bottom: 4vh;
+}
+
+.menu_sec .header
+{
+    margin: auto;
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+
+.menu_sec h3
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    line-height: 39px;
+    color: rgb(192,171,132);
+    font-weight: 100;
+    padding: 2vh 0  ;
+}
+
+.menu_sec h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.five
+{
+    background-color: rgb(248,248,248);
+}
+
+.containera
+{
+    width: 84%;
+    margin: auto;
+}
+
+
+
+.five .mo7twa
+{
+    float: left;
+    width: 50%;
+    padding-top: 7vh;
+    padding-right: 4vh;
+
+}
+
+.five .map iframe
+{
+
+    float: left;
+
+}
+
+.contain
+{
+    width: 85%;
+    margin: auto;
+    padding: 12vh 0vh;
+}
+
+
+.five .mo7twa h2
+{
+    color: rgb(173,151,104);
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Lora', serif;
+    padding:0;
+    padding-bottom: 3vh;
+    display: inline-block;
+}
+
+.five .mo7twa h5
+{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #535353;
+    padding-bottom: 2vh;
+}
+
+.five .mo7twa table i
+{
+    color: white;
+    background: rgb(173,151,104);
+    border-radius: 50%;
+    border: 1px solid rgb(173,151,104);
+    font-size: 18px;
+    padding: 8px;
+    
+}
+.five .mo7twa table p
+{
+    padding-top:2vh;
+    padding-left: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #535353;
+}
+
+
+
+.six
+{
+    background-color: #403d38;
+}
+
+.six .item h4
+{
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    line-height: 23px;
+    color: white;
+    padding-bottom: 1vh;
+
+}
+
+.six .item p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #969696;
+    padding: 2vh 0 0;
+
+}
+
+.six .item
+{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 1vh;
+    transition: all 0.5s;
+
+
+}
+
+.six  .containera
+{
+    padding: 8vh 0vh;
+}
+
+.tablee
+{
+
+margin-top: 3vh;
+}
+
+.six .item table i
+{
+    color: #969696;
+    line-height: 10px;
+}
+.six .item table p
+{
+padding-left: 1vh;
+font-size: 14px;
+line-height: 10px;
+}
+
+.line
+{
+    position: relative;
+    width: 100%;
+}
+
+table
+{
+    width: 100%;
+}
+
+.line::after
+{
+    content: "";
+    width: 95%;
+    height: 1px;
+    position: absolute;
+    background-color: RGB(74, 70, 65);
+    top: 100%;
+    left: 0;
+
+}
+
+.six .item1 table p
+{
+    line-height: 24px;
+}
+
+
+.six .item1 table i
+{
+    line-height: 24px;
+
+}
+
+
+.sev
+{
+    background-color: #35332f;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 5%;
+
+}
+
+.sev p
+{
+    color: RGB(144, 144, 144);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.icons .face i
+{
+    color: #8b8a86;
+    background-color: #474541;
+    margin-right:1vh;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 18px 22px;
+    transition: all 0.5s;
+
+}
+
+.icons .face:hover i
+{
+    color: #ffffff;
+    background-color: #4267B2;
+
+    
+}
+
+
+.icons .insta i
+{
+    color: #8b8a86;
+    background-color: #474541;
+    margin-right:1vh;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 18px;
+    transition: all 0.5s;
+
+
+}
+
+.icons .insta:hover i
+{
+    color: white;
+    background-color: #4c68d7;
+
+
+}
+
+.icons .tumb i
+{
+    color: #8b8a86;
+    background-color: #474541;
+    margin-right:1vh;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 18px 22px;
+}
+
+.icons .tumb:hover i
+{
+    color: white;
+    background-color: #35465C;
+}
+
+
+
+
+
+.icons .tweet i
+{
+    color: #8b8a86;
+    background-color: #474541;
+    margin-right:1vh;
+    text-align: center;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 18px;
+}
+
+.icons .tweet:hover i
+{
+    color: white;
+    background-color: rgb(29, 161, 242);
+}
+
+
+
+.face
+{
+    float: left;
+    
+}
+.insta
+{
+    float: left;
+}
+
+.tweet
+{
+    float: left;
+}
+
+.tumb
+{
+    float: left;
+}
+
+.icons
+{
+
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2%;
+    
+
+}
+
+.links:hover p
+{
+    color: white;
+}
+
+
+.last
+{
+    background-image: url(../images/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
