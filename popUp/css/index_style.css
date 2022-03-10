@@ -1,0 +1,71 @@
+*
+{
+    font-family: "segoe ui light";
+}
+
+
+.content
+{
+    bottom: 5%;
+    left: 8%;
+    margin: auto;
+}
+
+.item img
+{
+    width: 100%;
+    cursor:pointer;
+}
+
+.popUpRgba
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popUpRgba-child
+{
+    background-image: url(../images/one.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 60%;
+    width: 50%;
+}
+
+
+.arrows
+
+{
+    display: flex;
+    z-index: 33;
+    justify-content: space-between;
+    height: 91.9%;
+    align-items: center;
+
+
+}
+
+.close
+{
+    display: flex;
+    justify-content: end;
+
+}
+
+.popUpRgba-child i 
+{
+    font-size:30px;
+    cursor: pointer;
+
+}
+
+
+
